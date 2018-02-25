@@ -1,0 +1,4 @@
+MAKEFLAGS=-j4
+CC=clang-3.8
+CXX=clang++-3.8
+CXXFLAGS=-O2 -mtune=native -march=native -Wno-unused-variable -Wno-unused-function -Wno-macro-redefined -Wno-ignored-attributes -Wno-deprecated-declarations -DBOOST_PHOENIX_NO_VARIADIC_EXPRESSION
